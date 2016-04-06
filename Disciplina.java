@@ -19,19 +19,19 @@ public class Disciplina {
 	@Column(name = "esc_id")
 	private int id;
 
-	@Column(name = "esc_nome", length = 60, nullable = true)
+	@Column(name = "esc_nome", length = 40, nullable = true)
 	private String nome;
 
-	@Column(name = "esc_objetivo", length = 60, nullable = true)
+	@Column(name = "esc_objetivo", length = 40, nullable = true)
 	private String objetivo;
 
-	@Column(name = "esc_periodo", length = 60, nullable = true)
+	@Column(name = "esc_periodo", length = 40, nullable = true)
 	private int periodo;
 
-	@Column(name = "esc_cargaHoraria", length = 60, nullable = true)
+	@Column(name = "esc_cargaHoraria", length = 40, nullable = true)
 	private int cargaHoraria;
 
-	@Column(name = "esc_observacao", length = 60, nullable = true)
+	@Column(name = "esc_observacao", length = 40, nullable = true)
 	private String observacao;
 
 	public int getId() {
